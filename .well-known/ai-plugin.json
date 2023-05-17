@@ -1,9 +1,9 @@
 {
     "schema_version": "v1",
-    "name_for_human": "TODO Plugin (no auth)",
-    "name_for_model": "todo",
-    "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
-    "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+    "name_for_human": "Create a QR code plugin",
+    "name_for_model": "create_qr_code_plugin",
+    "description_for_human": "Plugin to create a QR code.",
+    "description_for_model": "Plugin for managing a QR code.",
     "auth": {
       "type": "none"
     },
@@ -12,8 +12,7 @@
       "url": "http://localhost:5003/openapi.yaml",
       "is_user_authenticated": false
     },
-    "logo_url": "http://localhost:5003/logo.png",
+    "logo_url": "http://localhost:5003/qr-logo.png",
     "contact_email": "legal@example.com",
     "legal_info_url": "http://example.com/legal"
   }
-  
